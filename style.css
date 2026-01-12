@@ -56,6 +56,7 @@ a {
     overflow: hidden;
 }
 
+
 .slideshow {
     position: absolute;
     inset: 0;
@@ -114,7 +115,7 @@ a {
     left: 50%;
     transform: translateX(-50%);
     color: white;
-    font-size: 48px;
+    font-size: 300%;
     background: rgba(0,0,0,0.5);
     padding: 15px 30px;
     border-radius: 12px;
@@ -221,3 +222,87 @@ section h3 {
 
 
 
+/* booter */
+
+.footer {
+    background-color: #0d47a1;
+    color: #fff;
+    padding: 40px 0 20px;
+}
+
+.footer-container {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.footer h3, .footer h4 {
+    margin-bottom: 10px;
+}
+
+.footer p {
+    max-width: 300px;
+    line-height: 1.6;
+}
+
+.footer-links ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-links ul li {
+    margin-bottom: 8px;
+}
+
+.footer a {
+    color: #ccc;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    color: #00c3ff;
+}
+
+.footer-social a {
+    display: block;
+    margin-bottom: 8px;
+}
+
+.footer-bottom {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 14px;
+    color: #aaa;
+}
+
+
+
+
+
+
+/* cỡ chữ */
+
+/* ===== TĂNG CỠ CHỮ CHUNG ===== */
+body {
+    font-size: 18px;
+}
+
+/* ===== TIÊU ĐỀ ===== */
+h1 {
+    font-size: 56px;
+}
+
+h3 {
+    font-size: 24px;
+}
+
+h4 {
+    font-size: 20px;
+}
+
+/* ===== NỘI DUNG ===== */
+p, li {
+    font-size: 18px;
+}
